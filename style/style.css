@@ -1,0 +1,106 @@
+.div_inputs{
+    display: flex;
+}
+*{
+    margin-left: 5px;
+}
+.name_div{
+    margin-right: 10px;
+}
+.texts_inp{
+    font-size: 16px;
+}
+.txt{
+    width: 150px;
+    height: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+form{
+    margin-left: 30px;
+    display: flex;
+}
+.inps{
+    height: 25px;
+    padding: 0 4px 0 4px;
+    border-radius: 5px;
+    border: 1.5px solid #c4c4c4;
+    color: #a0a0a0;
+}
+
+.add{
+    padding: 0 10px 0 10px;
+    height: 30px;
+    margin-top: 38px;
+    margin-left: 15px;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+.boxes{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.boxes_box{
+    margin-top: 20px;
+    padding: 20px;
+    width: 450px;
+    height: 700px;
+    overflow-y: scroll;
+}
+.div_box, .div_box2{
+    border-right: 2px solid #c4c4c4;
+}
+.div_korol{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.h1_img{
+    width: 100%;
+    display: flex;
+}
+.name_h1_box{
+    width: 80%;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 7px;
+}
+.div_age{
+    width: 94%;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    display: flex;
+    height: 40px;
+}
+.age_h1_box{
+    margin-top: 7px;
+    width: 90%;
+    font-size: 20px;
+}
+.num_h1{
+    margin-top: 7px;
+    float: left;
+    font-size: 20px;
+}
+.delet_btn{
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: red;
+}
